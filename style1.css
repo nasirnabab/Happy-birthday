@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    /* background-color:  #0049B7; */
+    background-image: linear-gradient(#ff1d58, transparent),
+    url(swati.JPG);
+    background-size: cover;
+    color: white;
+    font-family: "poppins", "sans-serif";
+    /* animation: wish 20s steps(1, end) 5s 5 alternate forwards; */
+  }
+  nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      /* background-color:  #00DDFF; */
+      font-size: 40px;
+      font-weight: 500;
+  }
+  .first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 13px 0;
+    /* background-color: #ff1d58; */
+    
+    
+}
+.first >div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 2rem;
+
+}
+.leftsection .btn{
+    background: transparent;
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+.leftsection .btn:hover{
+    background-color: #ff1d58;
+}
+.leftsection .button{
+    padding: 20px 0;
+}
+.rightsection{
+    background-image: url(Img/5.jpg);
+    height: 450px;
+    width: 300px;
+    background-size: cover;
+    border: 5px solid #fff685;
+    border-radius: 4px;
+}
+/* @keyframes wish {
+    0%{
+        background-image: linear-gradient(#ff1d58, transparent),
+    url(Img/1.JPG);
+    background-size: cover;
+    }
+    20%{
+        background-image: linear-gradient(#ff1d58, transparent),
+        url(Img/2.jpg);
+        background-size: cover;
+    }
+    40%{
+        background-image: linear-gradient(#ff1d58, transparent),
+    url(Img/3.jpeg);
+    background-size: cover;
+    }
+    60%{
+        background-image: linear-gradient(#ff1d58, transparent),
+    url(Img/4.jpeg);
+    background-size: cover;
+    }
+    80%{
+        background-image: url(Img/2.JPG);
+    }
+    100%{
+        background-image: url(Img/1.JPG);
+    }
+} */
+.rightsection img{
+    width: 80%;
+    height: 500px;
+}
+.purple{
+    color: #0049B7;
+}
+#element{
+    color: rgb(125, 243, 125);
+    font-size: 3rem;
+    font-weight: 300;
+}
+.Wish{
+    font-size: 100px;
+    font-weight: 600;
+    -webkit-text-stroke: 1.5px  #fff685;
+    color: #00DDFF;
+    /* line-height: 60px; */
+}
+.foot{
+    text-align: center;
+    color: gray;
+}
